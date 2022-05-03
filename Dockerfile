@@ -13,11 +13,11 @@ RUN pip install --upgrade pip
 
 COPY . /code
 
-RUN chmod +x /code/packages
+RUN chmod +x /code/packages_
 
-WORKDIR /code/packages
+WORKDIR /code/packages_
 
-ENV PYTHONPATH "${PYTHONPATH}:/code/packages"
+ENV PYTHONPATH "${PYTHONPATH}:/code/packages_"
 
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
