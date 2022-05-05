@@ -1,0 +1,88 @@
+action: GLOB, msg: packaging
+cwd: /home/suhas/code/packages
+cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing prediction_model.egg-info/PKG-INFO
+writing dependency_links to prediction_model.egg-info/dependency_links.txt
+writing requirements to prediction_model.egg-info/requires.txt
+writing top-level names to prediction_model.egg-info/top_level.txt
+reading manifest file 'prediction_model.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.cfg'
+warning: no files found matching '*.pkl'
+warning: manifest_maker: MANIFEST.in, line 5: 'recursive-include' expects <dir> <pattern1> <pattern2> ...
+
+warning: no previously-included files found matching '*.log'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+writing manifest file 'prediction_model.egg-info/SOURCES.txt'
+running check
+creating prediction_model-0.1.0
+creating prediction_model-0.1.0/prediction_model
+creating prediction_model-0.1.0/prediction_model.egg-info
+creating prediction_model-0.1.0/prediction_model/config
+creating prediction_model-0.1.0/prediction_model/datasets
+creating prediction_model-0.1.0/prediction_model/processing
+creating prediction_model-0.1.0/prediction_model/trained_models
+copying files to prediction_model-0.1.0...
+copying MANIFEST.in -> prediction_model-0.1.0
+copying README.md -> prediction_model-0.1.0
+copying requirements.txt -> prediction_model-0.1.0
+copying setup.py -> prediction_model-0.1.0
+copying prediction_model/VERSION -> prediction_model-0.1.0/prediction_model
+copying prediction_model/__init__.py -> prediction_model-0.1.0/prediction_model
+copying prediction_model/pipeline.py -> prediction_model-0.1.0/prediction_model
+copying prediction_model/predict.py -> prediction_model-0.1.0/prediction_model
+copying prediction_model/train_pipeline.py -> prediction_model-0.1.0/prediction_model
+copying prediction_model.egg-info/PKG-INFO -> prediction_model-0.1.0/prediction_model.egg-info
+copying prediction_model.egg-info/SOURCES.txt -> prediction_model-0.1.0/prediction_model.egg-info
+copying prediction_model.egg-info/dependency_links.txt -> prediction_model-0.1.0/prediction_model.egg-info
+copying prediction_model.egg-info/requires.txt -> prediction_model-0.1.0/prediction_model.egg-info
+copying prediction_model.egg-info/top_level.txt -> prediction_model-0.1.0/prediction_model.egg-info
+copying prediction_model/config/__init__.py -> prediction_model-0.1.0/prediction_model/config
+copying prediction_model/config/config.py -> prediction_model-0.1.0/prediction_model/config
+copying prediction_model/datasets/__init__.py -> prediction_model-0.1.0/prediction_model/datasets
+copying prediction_model/datasets/test.csv -> prediction_model-0.1.0/prediction_model/datasets
+copying prediction_model/datasets/train.csv -> prediction_model-0.1.0/prediction_model/datasets
+copying prediction_model/processing/__init__.py -> prediction_model-0.1.0/prediction_model/processing
+copying prediction_model/processing/data_management.py -> prediction_model-0.1.0/prediction_model/processing
+copying prediction_model/processing/preprocessors.py -> prediction_model-0.1.0/prediction_model/processing
+copying prediction_model/trained_models/__init__.py -> prediction_model-0.1.0/prediction_model/trained_models
+copying prediction_model/trained_models/classification_v1.pkl -> prediction_model-0.1.0/prediction_model/trained_models
+Writing prediction_model-0.1.0/setup.cfg
+creating '.tox/dist/prediction_model-0.1.0.zip' and adding 'prediction_model-0.1.0' to it
+adding 'prediction_model-0.1.0'
+adding 'prediction_model-0.1.0/prediction_model'
+adding 'prediction_model-0.1.0/prediction_model.egg-info'
+adding 'prediction_model-0.1.0/README.md'
+adding 'prediction_model-0.1.0/MANIFEST.in'
+adding 'prediction_model-0.1.0/requirements.txt'
+adding 'prediction_model-0.1.0/setup.cfg'
+adding 'prediction_model-0.1.0/PKG-INFO'
+adding 'prediction_model-0.1.0/setup.py'
+adding 'prediction_model-0.1.0/prediction_model/processing'
+adding 'prediction_model-0.1.0/prediction_model/config'
+adding 'prediction_model-0.1.0/prediction_model/datasets'
+adding 'prediction_model-0.1.0/prediction_model/trained_models'
+adding 'prediction_model-0.1.0/prediction_model/VERSION'
+adding 'prediction_model-0.1.0/prediction_model/__init__.py'
+adding 'prediction_model-0.1.0/prediction_model/pipeline.py'
+adding 'prediction_model-0.1.0/prediction_model/train_pipeline.py'
+adding 'prediction_model-0.1.0/prediction_model/predict.py'
+adding 'prediction_model-0.1.0/prediction_model/processing/__init__.py'
+adding 'prediction_model-0.1.0/prediction_model/processing/data_management.py'
+adding 'prediction_model-0.1.0/prediction_model/processing/preprocessors.py'
+adding 'prediction_model-0.1.0/prediction_model/config/__init__.py'
+adding 'prediction_model-0.1.0/prediction_model/config/config.py'
+adding 'prediction_model-0.1.0/prediction_model/datasets/test.csv'
+adding 'prediction_model-0.1.0/prediction_model/datasets/train.csv'
+adding 'prediction_model-0.1.0/prediction_model/datasets/__init__.py'
+adding 'prediction_model-0.1.0/prediction_model/trained_models/classification_v1.pkl'
+adding 'prediction_model-0.1.0/prediction_model/trained_models/__init__.py'
+adding 'prediction_model-0.1.0/prediction_model.egg-info/SOURCES.txt'
+adding 'prediction_model-0.1.0/prediction_model.egg-info/dependency_links.txt'
+adding 'prediction_model-0.1.0/prediction_model.egg-info/requires.txt'
+adding 'prediction_model-0.1.0/prediction_model.egg-info/PKG-INFO'
+adding 'prediction_model-0.1.0/prediction_model.egg-info/top_level.txt'
+removing 'prediction_model-0.1.0' (and everything under it)

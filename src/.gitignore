@@ -1,0 +1,3 @@
+venv_package/
+__pycache__/
+.pytest_cache
