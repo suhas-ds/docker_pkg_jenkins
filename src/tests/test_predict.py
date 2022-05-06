@@ -26,4 +26,4 @@ def test_single_prediction_dtype(single_prediction):
 
 def test_single_prediction_output(single_prediction):
 	''' This function will check if result of prediction is Y '''
-	assert single_prediction.get('prediction')[0] == 'Y'
+	assert single_prediction.get('prediction')[0] == 'N'
