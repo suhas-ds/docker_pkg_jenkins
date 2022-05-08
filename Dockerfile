@@ -20,3 +20,4 @@ WORKDIR /code/src
 ENV PYTHONPATH "${PYTHONPATH}:/code/src"
 
 CMD pip install -e .
+
