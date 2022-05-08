@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 # ENV PATH="${PATH}:/code"
 EXPOSE 8005
 
-#EXPOSE 8006
+# EXPOSE 8006
 
 WORKDIR /code/src
 
